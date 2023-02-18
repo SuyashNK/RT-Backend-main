@@ -7,7 +7,7 @@ require('dotenv').config()
 cors({
     origin: '*'
 })
-const Enquiry = require('../backend/schema.js')
+const Enquiry = require('./schema.js')
 const app = express();
 const port =4000;
 app.use(cors())
